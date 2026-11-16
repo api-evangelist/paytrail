@@ -64,5 +64,141 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Paytrail is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://paytrail.com/
+Paytrail Oyj is a Finnish payment service provider offering a range of online and omnichannel payment solutions, including card payments, mobile payments, bank transfers, and installment options. Part of the Nexi/Nets group, Paytrail serves merchants with tools for integration, financing, and comprehensive payment management across web and physical stores.
+
+**Areas:** Payments · Fintech · E-commerce · Omnichannel · Finland
+
+## Paytrail on APIs.io
+
+Everything profiled for Paytrail is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/paytrail/](https://apis.io/providers/paytrail/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Paytrail payment reports API](https://apis.io/apis/paytrail/paytrail-payment-reports-api/) — Request a payment report
+- [Paytrail Payments API](https://apis.io/apis/paytrail/paytrail-payments-api/) — Create, fetch or refund payments
+- [Paytrail Providers API](https://apis.io/apis/paytrail/paytrail-providers-api/) — The providers API from Paytrail — 2 operation(s) for providers.
+- [Paytrail Settlements API](https://apis.io/apis/paytrail/paytrail-settlements-api/) — List settlement IDs
+- [Paytrail token payments API](https://apis.io/apis/paytrail/paytrail-token-payments-api/) — Tokenize payment cards and issue payments on tokens
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Paytrail Webhooks](https://apis.io/asyncapis/paytrail/paytrail-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Paytrail Agentic Access](https://apis.io/agentic-access/paytrail/paytrail-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AddCardFormRequest](https://apis.io/schemas/paytrail/paytrail-add-card-form-request/)
+- [Payment](https://apis.io/schemas/paytrail/paytrail-payment/)
+- [PaymentReportRequest](https://apis.io/schemas/paytrail/paytrail-payment-report-request/)
+- [PaymentRequest](https://apis.io/schemas/paytrail/paytrail-payment-request/)
+- [PaymentRequestResponse](https://apis.io/schemas/paytrail/paytrail-payment-request-response/)
+- [TokenPaymentRequest](https://apis.io/schemas/paytrail/paytrail-token-payment-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Paytrail Context](https://apis.io/jsonld/paytrail/paytrail-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Paytrail API Rules](https://apis.io/rules/paytrail/paytrail-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Paytrail Authentication](https://apis.io/security/paytrail/paytrail-authentication/)
+- [Paytrail Domain Security](https://apis.io/security/paytrail/paytrail-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Paytrail Plans Pricing](https://apis.io/plans/paytrail/paytrail-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://paytrail.com/)
+- [Documentation](https://docs.paytrail.com/)
+- [Getting started](https://www.paytrail.com/omnichannel-kayttoonotto)
+- [API reference](https://docs.paytrail.com/)
+- [Support](https://support.paytrail.com/hc/fi)
+- [Blog](https://www.paytrail.com/blog)
+- [Terms of service](https://www.paytrail.com/en/terms-conditions)
+- [Privacy policy](https://www.paytrail.com/tietosuojaselosteet)
+- [GitHub](https://github.com/paytrail)
+- [Status](https://status.paytrail.com/)
+
+## API Evangelist rating
+
+**Kin Score 62.0** — strong · rubric 0.27.0 · scored 2026-11-16
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 64.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 64.3 |
+| Access clarity | 62.6 |
+
+**Agent readiness 40.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.3** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/paytrail/](https://apis.io/providers/paytrail/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Paytrail: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/paytrail/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
